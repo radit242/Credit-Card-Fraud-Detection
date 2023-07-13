@@ -1,6 +1,6 @@
 # Credit-Card-Fraud-Detection
 
-Introduction 
+**Introduction **
 
 Credit card fraud is a major concern for banks and financial institutions. Fraudsters use various techniques to steal credit card information and make unauthorized transactions. In this project, we will explore a dataset containing credit card transactions and build models to predict fraudulent transactions.
 
@@ -31,7 +31,7 @@ Time and V3, with a correlation coefficient of -0.42
 Amount and V2, with a correlation coefficient of -0.53
 Amount and V4, with a correlation coefficient of 0.4.
 
-Modeling 
+Modelling 
 
 The "Credit Card Fraud Detection" dataset has credit card transactions labeled as fraudulent or not. The dataset is imbalanced, so it needs a model that can accurately detect fraudulent transactions without wrongly flagging non-fraudulent transactions.
 
@@ -125,13 +125,13 @@ Confusion Matrix
 Random Forest has a higher TP% than Xgboost while Xgboost has a higher TN% compared to Random Forest
 
 ![image](https://github.com/radit242/Credit-Card-Fraud-Detection/assets/107355525/e62f7074-d127-42aa-8a2b-16520b5c9968)
-cnonfusion matrix of random Forest
+confusion matrix of random Forest
 
 ![image](https://github.com/radit242/Credit-Card-Fraud-Detection/assets/107355525/5beeb0ed-76f0-42ca-8005-312c369c9382)
 confusion matrix of xgboost
 
 Conclusion:
-From the results its is observed that random forest and xgboost are the best models as they have higher mean_score, roc_auc_score, f1_score, accuracy_score compared to other models. Random Forest has a higher TP% while Xgboost has a higher TN% compared to each other.
+From the results, its is observed that random forest and xgboost are the best models as they have higher mean_score, roc_auc_score, f1_score, and accuracy_score compared to other models. Random Forest has a higher TP% while Xgboost has a higher TN% compared to each other.
 
 
 
